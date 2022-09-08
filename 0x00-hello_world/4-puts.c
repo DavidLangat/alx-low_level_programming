@@ -1,10 +1,15 @@
 #include <stdio.h>
 #include <string.h>
-
+/**
+*main
+*
+*
+*Return: return 0 everytime
+*/
 int main(void)
 {
-char disp[52];
-strcpy(disp, "\"Programming is like building a multiligual puzzle");
-puts(disp);
-return (0);
-}
+    char displayed [52];
+    strcpy(displayed,"\"Programming is like building a multilingual puzzle");
+    puts(displayed); 
+    return (0);
+ }
