@@ -2,13 +2,13 @@
 
 /**
 
-*main - main function
+*main - Main function of my project
 
 *
 
 *
 
-*Return: return 0
+*Return: return 0 everytime
 
 */
 
