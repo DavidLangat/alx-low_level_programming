@@ -1,23 +1,23 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _strcmp -  function that compares two strings.
- * @s1: primera cadena.
- * @s2: segunda cadena.
- * Return: 0.
+ * _strcmp - compare
+ * @s1 : pointerto char params
+ * @s2 : pointer to char params
+ * Return: *dest
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int res = 0;
+	int i;
+	int R;
 
-	while (*s1 == *s2 && *s1 != '\0')
+	i = 0;
+
+	while (s1[i] == s2[i] && (s1[i] != '\0' || s2[i] != '\0'))
 	{
-		s1++;
-		s2++;
+		i++;
 	}
-	if (s1 != s2)
-		res = *s1 - *s2;
-
-	return (res);
+	R = s1[i] - s2[i];
+	return (R);
 }
